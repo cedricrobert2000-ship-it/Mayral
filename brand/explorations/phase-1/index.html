@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>MAYRAL — Phase 1</title>
+<style>
+@font-face{font-family:Unbounded;font-weight:400;src:url(fonts/unbounded-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:Unbounded;font-weight:500;src:url(fonts/unbounded-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:Manrope;font-weight:300;src:url(fonts/manrope-latin-300-normal.woff2) format("woff2")}
+@font-face{font-family:Manrope;font-weight:400;src:url(fonts/manrope-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:Manrope;font-weight:500;src:url(fonts/manrope-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter Tight";font-weight:300;src:url(fonts/inter-tight-latin-300-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter Tight";font-weight:400;src:url(fonts/inter-tight-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter Tight";font-weight:500;src:url(fonts/inter-tight-latin-500-normal.woff2) format("woff2")}
+:root{
+  --black-1000:#050304;--black-950:#0A0607;--black-900:#120A0B;--crimson-900:#2A0709;--crimson-700:#6E0F16;
+  --red-500:#C81E24;--glow-300:#FF5A4E;--ash-400:#8C8283;--ash-200:#CFC6C6;--white-50:#F5F1EF;
+  --line:rgba(245,241,239,.08);--line-strong:rgba(245,241,239,.18);
+  --m:clamp(20px,4.5vw,64px);
+}
+*{box-sizing:border-box;margin:0}
+html{background:var(--black-1000);color:var(--white-50);font:400 16px/1.6 Manrope,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+.label{font:500 11px/1.2 Unbounded,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:var(--ash-400)}
+.label b{color:var(--red-500);font-weight:500}
+section{padding:clamp(72px,10vw,140px) var(--m);border-top:1px solid var(--line)}
+h2{font:300 clamp(28px,4.4vw,56px)/1.08 Manrope,sans-serif;letter-spacing:-.02em;margin:16px 0 clamp(32px,5vw,64px);max-width:16ch}
+.grain{position:fixed;inset:0;pointer-events:none;z-index:50;opacity:.04;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* Hero de mise en situation */
+.hero{position:relative;height:100svh;min-height:560px;overflow:hidden;display:grid;place-items:center;text-align:center}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 70%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,3,4,.35) 0%,rgba(5,3,4,0) 35%,rgba(5,3,4,0) 60%,rgba(5,3,4,.9) 100%)}
+.nav{position:absolute;top:0;left:0;right:0;z-index:2;display:flex;align-items:center;justify-content:space-between;padding:28px var(--m)}
+.nav img{height:22px;width:auto}
+.nav ul{display:flex;gap:36px;list-style:none;padding:0;font:500 13px/1 Manrope;color:var(--ash-200)}
+.nav .tel{font:500 13px/1 Manrope;color:var(--ash-200);font-variant-numeric:tabular-nums}
+.hero-c{position:relative;z-index:2;padding:0 var(--m);margin-top:-14vh}
+.hero h1{font:300 clamp(40px,6.2vw,88px)/1 Manrope,sans-serif;letter-spacing:-.03em;margin:20px 0 18px}
+.hero p{color:var(--ash-200);font-size:clamp(16px,1.3vw,19px)}
+.ctas{display:flex;gap:12px;justify-content:center;margin-top:36px;flex-wrap:wrap}
+.btn{height:52px;padding:0 28px;border-radius:999px;display:inline-flex;align-items:center;font:500 14px/1 Manrope;letter-spacing:.01em;text-decoration:none}
+.btn.p{background:var(--white-50);color:var(--black-1000)}
+.btn.s{border:1px solid var(--line-strong);color:var(--white-50)}
+.scroll{position:absolute;bottom:28px;left:50%;z-index:2;width:1px;height:48px;background:linear-gradient(var(--line-strong),transparent)}
+.tag{position:absolute;z-index:3;bottom:28px;left:var(--m)}
+
+/* Directions */
+.dirs{display:grid;gap:24px}
+.dir{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.dir>div{background:var(--black-950);min-height:320px;display:grid;place-items:center;padding:48px;position:relative}
+.dir>div .label{position:absolute;top:20px;left:24px}
+.dir .paper{background:#EDE8E5}
+.dir .paper .label{color:#6d6465}
+.dir .img{background:center/cover no-repeat}
+.dir .img::before{content:"";position:absolute;inset:0;background:rgba(5,3,4,.45)}
+.dir .img img{position:relative}
+.dir .head{grid-column:1/-1;min-height:auto;place-items:start;padding:20px 24px;display:flex;justify-content:space-between;gap:16px;background:var(--black-1000)}
+.dir .head .label{position:static}
+.dir .head p{font-size:14px;color:var(--ash-200);max-width:52ch}
+.w-l{width:min(78%,420px)}.w-m{width:min(70%,260px)}.w-s{width:min(46%,120px)}
+
+/* Monogramme */
+.mono{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center}
+.avatar{position:relative;width:min(100%,460px);aspect-ratio:1;justify-self:center}
+.avatar img{width:100%;height:100%;border-radius:50%}
+.avatar::after{content:"";position:absolute;inset:-14px;border:1px dashed var(--line-strong);border-radius:50%}
+.sizes{display:flex;gap:28px;align-items:end;margin-top:32px}
+.sizes img{border-radius:50%}
+
+/* Typo */
+.typo{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.spec{position:relative;border:1px solid var(--line);border-radius:8px;overflow:hidden;min-height:620px;display:flex;flex-direction:column;justify-content:flex-end;padding:40px}
+.spec>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
+.spec::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,3,4,.1),rgba(5,3,4,.92) 62%);z-index:1}
+.spec>*:not(img){position:relative;z-index:2}
+.spec .big{font-weight:300;font-size:clamp(36px,4.6vw,64px);line-height:1.04;letter-spacing:-.03em;margin:18px 0 22px}
+.spec .body{color:var(--ash-200);max-width:42ch;font-size:16px}
+.spec .meta{display:flex;gap:24px;flex-wrap:wrap;margin-top:28px;padding-top:20px;border-top:1px solid var(--line)}
+.spec .meta span{font-size:14px;font-variant-numeric:tabular-nums;color:var(--white-50)}
+.spec .meta span i{display:block;font-style:normal;color:var(--ash-400);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-family:Unbounded;margin-bottom:6px}
+.spec .aa{position:absolute;top:32px;right:40px;font-weight:300;font-size:120px;line-height:1;color:rgba(245,241,239,.12);z-index:2}
+.A{font-family:Manrope}.B{font-family:"Inter Tight"}
+.note{color:var(--ash-400);font-size:14px;margin-top:24px;max-width:70ch}
+
+@media (max-width:900px){
+  .nav ul{display:none}
+  .dir{grid-template-columns:1fr}
+  .dir>div{min-height:220px}
+  .mono,.typo{grid-template-columns:1fr}
+  .spec{min-height:540px;padding:28px}
+  .spec .aa{right:28px;font-size:88px}
+  .hero img{object-position:22% 70%}
+}
+</style>
+</head>
+<body>
+<div class="grain"></div>
+
+<header class="hero">
+  <img src="../../../public/media/src/hero-silhouette.png" alt="">
+  <nav class="nav">
+    <img src="d3-wordmark-signe-light.svg" alt="MAYRAL">
+    <ul><li>Collection</li><li>Off-market</li><li>Univers ▾</li><li>Contact</li></ul>
+    <span class="tel">+33 0 00 00 00 00</span>
+  </nav>
+  <div class="hero-c">
+    <p class="label">Private Office · <b>Phase 1</b></p>
+    <h1>La route commence ici.</h1>
+    <p>Une sélection courte. Présentée sur rendez-vous.</p>
+    <div class="ctas"><a class="btn p">Voir la collection</a><a class="btn s">Réserver un essai</a></div>
+  </div>
+  <div class="scroll"></div>
+</header>
+
+<section>
+  <p class="label">01 — Logo</p>
+  <h2>Trois directions, une même lettre dessinée.</h2>
+  <div class="dirs">
+    <div class="dir">
+      <div class="head"><span class="label">Direction 1 · Wordmark</span><p>Lettres dessinées sur grille, larges et denses, avec des coupes nettes (le R au jambage détaché, le A sans barre). Interlettrage aéré, signature <em>Private Office</em> en Unbounded.</p></div>
+      <div><span class="label">Site</span><img class="w-l" src="d1-wordmark-light.svg" alt=""></div>
+      <div class="img" style="background-image:url(../../../public/media/src/rear-three-quarter.png)"><span class="label">Sur visuel</span><img class="w-m" src="d1-wordmark-light.svg" alt=""></div>
+      <div class="paper"><span class="label">Facture</span><img class="w-m" src="d1-wordmark-dark.svg" alt=""></div>
+    </div>
+    <div class="dir">
+      <div class="head"><span class="label">Direction 2 · Monogramme</span><p>Le M dessiné en perspective : les jambages s'affinent vers le haut comme deux lignes de fuite, et l'horizon passe par le point bas du V.</p></div>
+      <div><span class="label">Site</span><img class="w-s" style="width:min(50%,200px)" src="d2-monogram-light.svg" alt=""></div>
+      <div class="img" style="background-image:url(../../../public/media/src/top-light-painting.png)"><span class="label">Sur visuel</span><img class="w-s" src="d2-monogram-light.svg" alt=""></div>
+      <div style="background:#050304"><span class="label">Avatar</span><img style="width:min(60%,180px);border-radius:50%" src="d2-instagram-preview.svg" alt=""></div>
+    </div>
+    <div class="dir">
+      <div class="head"><span class="label">Direction 3 · Wordmark + signe</span><p>Le wordmark resserré, souligné d'un filet lumineux qui reprend le bandeau du feu arrière. Le seul rouge vif de la marque.</p></div>
+      <div><span class="label">Site</span><img class="w-l" src="d3-wordmark-signe-light.svg" alt=""></div>
+      <div class="img" style="background-image:url(../../../public/media/src/tail-light-macro.png)"><span class="label">Sur visuel</span><img class="w-m" src="d3-wordmark-signe-light.svg" alt=""></div>
+      <div class="paper"><span class="label">Facture</span><img class="w-m" src="d3-wordmark-signe-dark.svg" alt=""></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <p class="label">02 — Monogramme &amp; Instagram</p>
+  <h2>Un signe qui tient dans un cercle de 110 px.</h2>
+  <div class="mono">
+    <div class="avatar"><img src="d2-instagram-preview.svg" alt="Aperçu avatar Instagram"></div>
+    <div>
+      <p class="note" style="color:var(--ash-200);font-size:16px">Fond noir profond, halo cramoisi très bas, comme la lumière unique du studio. Le pointillé matérialise la zone de sécurité circulaire d'Instagram. Le monogramme reste lisible jusqu'à la taille d'un avatar en commentaire.</p>
+      <div class="sizes"><img src="d2-instagram-preview.svg" width="110" alt=""><img src="d2-instagram-preview.svg" width="56" alt=""><img src="d2-instagram-preview.svg" width="32" alt=""></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <p class="label">03 — Typographie</p>
+  <h2>Deux voix pour le site, une seule signature.</h2>
+  <div class="typo">
+    <article class="spec A">
+      <img src="../../../public/media/src/tail-light-macro.png" alt="">
+      <span class="aa">Aa</span>
+      <p class="label">Option A · Manrope + Unbounded</p>
+      <p class="big">Certaines voitures ne s'affichent pas.</p>
+      <p class="body">Manrope en 300 pour les titres, en 500 pour l'interface. Des formes rondes et ouvertes, plus chaleureuses. Unbounded garde les labels en capitales et rejoint la largeur du logo.</p>
+      <div class="meta"><span><i>Année</i>2024</span><span><i>Puissance</i>612 ch</span><span><i>0–100</i>3,4 s</span><span><i>Prix</i>Sur demande</span></div>
+    </article>
+    <article class="spec B">
+      <img src="../../../public/media/src/rear-three-quarter.png" alt="">
+      <span class="aa">Aa</span>
+      <p class="label">Option B · Inter Tight + Unbounded</p>
+      <p class="big">Sur rendez-vous uniquement.</p>
+      <p class="body">Inter Tight en 300 pour les titres, en 500 pour l'interface. Plus serrée et plus technique, elle évoque la fiche d'ingénieur. Les labels Unbounded sont identiques, pour un contraste plus net entre logo et texte.</p>
+      <div class="meta"><span><i>Année</i>2024</span><span><i>Puissance</i>612 ch</span><span><i>0–100</i>3,4 s</span><span><i>Prix</i>Sur demande</span></div>
+    </article>
+  </div>
+  <p class="note">Option payante à envisager : Neue Montreal (Pangram Pangram) pour le texte, ou une étendue de type Druk Wide pour les très grands titres. Le logo, lui, est dessiné et ne dépend d'aucune police.</p>
+</section>
+</body>
+</html>
