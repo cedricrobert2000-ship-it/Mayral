@@ -82,11 +82,11 @@ export function Gallery({ images, title }: { images: Media[]; title: string }) {
             <button
               type="button"
               onClick={() => show(i)}
-              className="group relative block w-full overflow-hidden rounded-card bg-elevated"
+              className="group relative block w-full overflow-hidden rounded-card bg-elevated" data-cursor="Agrandir"
               style={{ aspectRatio: '16/10' }}
               aria-label={`${t.vehicle.open} ${i + 1}`}
             >
-              <Image src={img.src} alt={img.alt} fill sizes="(min-width: 1280px) 64vw, (min-width: 768px) 72vw, 86vw" quality={80} className="object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-[1.03]" />
+              <Image src={img.src} alt={img.alt} fill sizes="(min-width: 1280px) 64vw, (min-width: 768px) 72vw, 86vw" quality={80} className="grade object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-[1.03]" />
             </button>
           </figure>
         ))}

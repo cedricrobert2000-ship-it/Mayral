@@ -11,7 +11,7 @@ export function VehicleCard({ vehicle: v, format = '16/10', priority, sizes = '(
   const status = v.status !== 'available' ? (v.status === 'reserved' ? 'Réservé' : 'Vendu') : null;
   return (
     <article className="group relative">
-      <Link href={`/collection/${v.slug}`} className="block rounded-card focus-visible:outline-offset-8">
+      <Link href={`/collection/${v.slug}`} className="block rounded-card focus-visible:outline-offset-8" data-cursor="Voir">
         <div data-reveal="image" className="relative overflow-hidden rounded-card bg-elevated" style={{ aspectRatio: format }}>
           <Image
             src={img.src}
@@ -20,9 +20,9 @@ export function VehicleCard({ vehicle: v, format = '16/10', priority, sizes = '(
             sizes={sizes}
             quality={80}
             priority={priority}
-            className="object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-[1.035]"
+            className="grade object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-[1.035]"
           />
-          <div aria-hidden className="absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(5,3,4,0.7))]" />
+          <div aria-hidden className="absolute inset-0 bg-[linear-gradient(180deg,transparent_55%,rgba(2,2,2,0.7))]" />
           <div className="absolute inset-x-5 bottom-5 flex items-end justify-between md:inset-x-7 md:bottom-7">
             <span className="label text-ink-2">{v.year}</span>
             <span className="flex size-11 items-center justify-center rounded-pill border border-line-strong text-ink backdrop-blur-md transition-colors duration-200 group-hover:bg-white-50 group-hover:text-black-1000">

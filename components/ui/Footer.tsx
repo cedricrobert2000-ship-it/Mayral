@@ -30,7 +30,7 @@ export function Footer() {
           </div>
         </div>
 
-        <Logo className="mt-24 w-full text-ink md:mt-32" />
+        <div data-letters className="mt-24 md:mt-32"><Logo className="w-full text-ink" /></div>
 
         <div className="mt-10 flex flex-col gap-4 border-t border-line pt-6 text-[13px] text-ink-muted md:flex-row md:items-center md:justify-between">
           <p>© {year} MAYRAL — {t.brand.signature}. {t.footer.rights}</p>

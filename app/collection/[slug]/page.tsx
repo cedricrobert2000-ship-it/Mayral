@@ -35,7 +35,6 @@ export default async function VehiclePage({ params }: { params: Promise<{ slug: 
     <>
       <Hero
         image={media[v.hero]}
-        align="bottom"
         eyebrow={
           <nav aria-label="Fil d'Ariane" className="label flex items-center gap-3 text-ink-2">
             <Link href="/collection" className="hover:text-ink">{t.vehicle.back}</Link>

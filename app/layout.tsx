@@ -3,6 +3,7 @@ import { manrope, unbounded } from './fonts';
 import './globals.css';
 import { MotionProvider } from '@/components/motion/MotionProvider';
 import { Loader } from '@/components/motion/Loader';
+import { Cursor } from '@/components/motion/Cursor';
 import { Nav } from '@/components/ui/Nav';
 import { Footer } from '@/components/ui/Footer';
 import { t } from '@/lib/i18n';
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
 };
 
-export const viewport: Viewport = { themeColor: '#050304', colorScheme: 'dark' };
+export const viewport: Viewport = { themeColor: '#020202', colorScheme: 'dark' };
 
 // Avant le rendu : active les animations (sauf prefers-reduced-motion) et saute le loader s'il a déjà été vu.
 const boot = `(function(){var d=document.documentElement;var r=matchMedia('(prefers-reduced-motion: reduce)').matches;if(r)return;d.classList.add('js-motion');var seen=true;try{seen=!!sessionStorage.getItem('mayral-intro')}catch(e){}if(seen){d.classList.add('intro-seen');return}d.classList.add('intro-play');setTimeout(function(){try{sessionStorage.setItem('mayral-intro','1')}catch(e){}d.classList.add('intro-seen')},3600)})()`;
@@ -31,11 +32,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <MotionProvider>
           <Loader />
+          <div aria-hidden className="progress" />
           <Nav />
           <main id="contenu">{children}</main>
           <Footer />
         </MotionProvider>
         <div aria-hidden className="grain" />
+        <Cursor />
       </body>
     </html>
   );

@@ -161,3 +161,108 @@ html.js-motion [data-trigger='load'][data-reveal='text'] { animation-name: mask-
   from { clip-path: inset(0 0 100% 0); transform: translateY(0.35em); }
   to { clip-path: inset(-10% -5% -25% -5%); transform: none; }
 }
+
+/* ───────────── Noir : étalonnage, curseur, marquee, rideau, projecteur ───────────── */
+
+/* Étalonnage « noir » des visuels : plus sombres, plus contrastés, rouge plus profond */
+.grade { filter: brightness(0.92) contrast(1.16) saturate(0.85); }
+.grade-deep { filter: brightness(0.85) contrast(1.2) saturate(0.8); }
+.vignette { background: radial-gradient(125% 95% at 50% 45%, transparent 45%, rgba(2, 2, 2, 0.7) 100%); }
+
+/* Barre de progression de lecture : le feu arrière */
+.progress {
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: 1px;
+  z-index: 55;
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  background: linear-gradient(90deg, transparent, var(--accent-default) 30%, var(--accent-glow));
+  box-shadow: 0 0 10px 1px rgba(255, 90, 78, 0.45);
+  pointer-events: none;
+}
+
+/* Curseur (desktop uniquement) */
+.cursor { display: none; }
+@media (hover: hover) and (pointer: fine) {
+  html.js-motion .cursor {
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 65;
+    width: 10px;
+    height: 10px;
+    margin: -5px 0 0 -5px;
+    border-radius: 999px;
+    background: var(--text-primary);
+    mix-blend-mode: difference;
+    pointer-events: none;
+    align-items: center;
+    justify-content: center;
+    transition: width 0.5s var(--ease-out), height 0.5s var(--ease-out), margin 0.5s var(--ease-out), opacity 0.3s;
+  }
+  html.js-motion .cursor.is-link { width: 44px; height: 44px; margin: -22px 0 0 -22px; }
+  html.js-motion .cursor.is-view { width: 96px; height: 96px; margin: -48px 0 0 -48px; mix-blend-mode: normal; background: var(--text-primary); }
+  html.js-motion .cursor span {
+    font: 500 10px/1 var(--font-label);
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--bg-canvas);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  html.js-motion .cursor.is-view span { opacity: 1; }
+  html.js-motion .cursor.is-hidden { opacity: 0; }
+}
+
+/* Bandeau défilant */
+.marquee { display: flex; width: max-content; animation: marquee 60s linear infinite; }
+.marquee-outline { color: transparent; -webkit-text-stroke: 1px rgba(250, 248, 247, 0.28); }
+@keyframes marquee { to { transform: translateX(-50%); } }
+
+/* Rideau noir entre deux pages */
+.curtain { position: fixed; inset: 0; z-index: 58; background: var(--bg-canvas); pointer-events: none; transform: translateY(-100%); }
+html.navigated .curtain { animation: curtain 1s var(--ease-inout) both; }
+@keyframes curtain {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+.curtain.done { display: none; }
+.curtain .light-line { position: absolute; left: 0; right: 0; bottom: 0; }
+
+/* Projecteur : la voiture n'apparaît que sous la lumière */
+@property --mx { syntax: '<percentage>'; inherits: true; initial-value: 50%; }
+@property --my { syntax: '<percentage>'; inherits: true; initial-value: 55%; }
+.spotlight {
+  -webkit-mask-image: radial-gradient(circle at var(--mx) var(--my), #000 0, rgba(0, 0, 0, 0.65) 12vmax, transparent 28vmax);
+  mask-image: radial-gradient(circle at var(--mx) var(--my), #000 0, rgba(0, 0, 0, 0.65) 12vmax, transparent 28vmax);
+  animation: drift 14s var(--ease-inout) infinite alternate;
+}
+.spotlight.is-tracking { animation: none; }
+@keyframes drift {
+  0% { --mx: 30%; --my: 45%; }
+  50% { --mx: 62%; --my: 60%; }
+  100% { --mx: 45%; --my: 35%; }
+}
+
+/* Survol image : reflet lumineux qui balaie */
+.sheen { position: relative; }
+.sheen::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 40%, rgba(250, 248, 247, 0.06) 50%, transparent 60%);
+  transform: translateX(-100%);
+  transition: transform 1.2s var(--ease-out);
+  pointer-events: none;
+}
+.sheen:hover::after { transform: translateX(100%); }
+
+/* Mots qui s'allument (manifeste) */
+.word { display: inline-block; color: var(--text-muted); }
+html:not(.js-motion) .word { color: var(--text-primary); }
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee, .spotlight { animation: none; }
+}

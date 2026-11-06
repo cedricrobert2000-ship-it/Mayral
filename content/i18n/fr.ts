@@ -33,14 +33,18 @@ const fr = {
   home: {
     hero: {
       eyebrow: 'Private Office',
+      available: 'Disponible',
       title: 'La route commence ici.',
+      titleLines: ['La route', 'commence ici.'],
       sub: 'Une sélection courte. Chaque voiture, présentée en personne.',
       ctaPrimary: 'Voir la collection',
       ctaSecondary: 'Réserver un essai',
       scroll: 'Défiler',
     },
+    pillars: ['Discrétion', 'Désir', 'Précision'],
     manifesto: {
       label: 'Manifeste',
+      statement: 'Peu de voitures. Choisies une à une. Montrées à ceux qui les cherchent.',
       lines: ['Peu de voitures.', 'Choisies une à une.', 'Montrées à ceux qui les cherchent.'],
       body: 'MAYRAL est un private office automobile. Nous trouvons, vérifions et présentons des voitures rares, sans annonce et sans intermédiaire inutile.',
     },

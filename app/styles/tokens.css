@@ -1,10 +1,10 @@
 /* Généré par scripts/build-tokens.mjs depuis tokens/tokens.json. Ne pas modifier à la main. */
 :root {
-  --color-base-black-1000: #050304;
-  --color-base-black-950: #0A0607;
-  --color-base-black-900: #120A0B;
-  --color-base-black-800: #1B1011;
-  --color-base-black-700: #261618;
+  --color-base-black-1000: #020202;
+  --color-base-black-950: #070707;
+  --color-base-black-900: #0D0C0C;
+  --color-base-black-800: #151313;
+  --color-base-black-700: #1F1C1C;
   --color-base-crimson-900: #2A0709;
   --color-base-crimson-800: #4A0B10;
   --color-base-crimson-700: #6E0F16;
@@ -12,26 +12,26 @@
   --color-base-red-500: #C81E24;
   --color-base-red-400: #E2353A;
   --color-base-glow-300: #FF5A4E;
-  --color-base-ash-400: #8C8283;
-  --color-base-ash-200: #CFC6C6;
-  --color-base-white-50: #F5F1EF;
-  --bg-canvas: #050304;
-  --bg-surface: #0A0607;
-  --bg-elevated: #120A0B;
+  --color-base-ash-400: #8E8888;
+  --color-base-ash-200: #D2CDCB;
+  --color-base-white-50: #FAF8F7;
+  --bg-canvas: #020202;
+  --bg-surface: #070707;
+  --bg-elevated: #0D0C0C;
   --bg-tint: #2A0709;
-  --border-subtle: rgba(245,241,239,0.08);
-  --border-strong: rgba(245,241,239,0.18);
-  --text-primary: #F5F1EF;
-  --text-secondary: #CFC6C6;
-  --text-muted: #8C8283;
+  --border-subtle: rgba(250,248,247,0.07);
+  --border-strong: rgba(250,248,247,0.2);
+  --text-primary: #FAF8F7;
+  --text-secondary: #D2CDCB;
+  --text-muted: #8E8888;
   --accent-default: #C81E24;
   --accent-hover: #E2353A;
   --accent-glow: #FF5A4E;
   --state-focus: #FF5A4E;
   --state-success: #7FA88A;
   --state-error: #E2353A;
-  --overlay-hero: linear-gradient(180deg, rgba(5,3,4,0.35) 0%, rgba(5,3,4,0) 35%, rgba(5,3,4,0) 60%, rgba(5,3,4,0.9) 100%);
-  --overlay-side: linear-gradient(90deg, rgba(5,3,4,0) 30%, rgba(5,3,4,0.85) 75%);
+  --overlay-hero: linear-gradient(180deg, rgba(2,2,2,0.5) 0%, rgba(2,2,2,0) 28%, rgba(2,2,2,0) 62%, rgba(2,2,2,0.94) 100%);
+  --overlay-side: linear-gradient(90deg, rgba(2,2,2,0) 25%, rgba(2,2,2,0.92) 70%);
   --duration-fast: 200ms;
   --duration-base: 700ms;
   --duration-slow: 1400ms;
@@ -56,7 +56,7 @@
   :root { --page-margin: 40px; --gutter: 20px; --cols: 8; }
 }
 @media (min-width: 1280px) {
-  :root { --text-display-xl--line-height: 1; --text-display-l--line-height: 1.05; --text-display-m--line-height: 1.1; --text-heading--line-height: 1.25; --text-body--line-height: 1.65; --page-margin: 64px; --gutter: 24px; --cols: 12; --section-y: 160px; }
+  :root { --text-display-xl--line-height: 0.95; --text-display-l--line-height: 1; --text-display-m--line-height: 1.1; --text-heading--line-height: 1.25; --text-body--line-height: 1.65; --page-margin: 64px; --gutter: 24px; --cols: 12; --section-y: 160px; }
 }
 @theme {
   --color-black-1000: var(--color-base-black-1000);
@@ -92,17 +92,17 @@
   --font-display: var(--font-manrope), system-ui, sans-serif;
   --font-sans: var(--font-manrope), system-ui, sans-serif;
   --font-label: var(--font-unbounded), system-ui, sans-serif;
-  --text-display-xl: clamp(40px, 23.099px + 4.507vw, 88px);
-  --text-display-xl--line-height: 1.05;
-  --text-display-xl--letter-spacing: -0.03em;
+  --text-display-xl: clamp(44px, 14.423px + 7.8873vw, 128px);
+  --text-display-xl--line-height: 1;
+  --text-display-xl--letter-spacing: -0.045em;
   --text-display-xl--font-weight: 300;
-  --text-display-l: clamp(32px, 20.732px + 3.0047vw, 64px);
-  --text-display-l--line-height: 1.1;
-  --text-display-l--letter-spacing: -0.025em;
+  --text-display-l: clamp(34px, 19.211px + 3.9437vw, 76px);
+  --text-display-l--line-height: 1.05;
+  --text-display-l--letter-spacing: -0.035em;
   --text-display-l--font-weight: 300;
-  --text-display-m: clamp(28px, 20.958px + 1.8779vw, 48px);
+  --text-display-m: clamp(28px, 19.549px + 2.2535vw, 52px);
   --text-display-m--line-height: 1.15;
-  --text-display-m--letter-spacing: -0.02em;
+  --text-display-m--letter-spacing: -0.03em;
   --text-display-m--font-weight: 300;
   --text-heading: clamp(20px, 17.183px + 0.7512vw, 28px);
   --text-heading--line-height: 1.3;

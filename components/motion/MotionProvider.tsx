@@ -86,7 +86,57 @@ function animate({ gsap, SplitText }: Libs, scope: HTMLElement) {
 
     // Lignes qui s'allument au défilement (ash-400 → white-50, contraste AA à tout instant)
     scope.querySelectorAll<HTMLElement>('[data-light]').forEach((el) => {
-      gsap.fromTo(el, { color: '#8C8283' }, { color: '#F5F1EF', ease: 'none', scrollTrigger: { trigger: el, start: 'top 82%', end: 'top 52%', scrub: true } });
+      gsap.fromTo(el, { color: '#8E8888' }, { color: '#FAF8F7', ease: 'none', scrollTrigger: { trigger: el, start: 'top 82%', end: 'top 52%', scrub: true } });
+    });
+
+    // Hero : au défilement, l'image s'enfonce dans le noir et le titre remonte
+    scope.querySelectorAll<HTMLElement>('[data-hero]').forEach((hero) => {
+      const st = { trigger: hero, start: 'top top', end: 'bottom top', scrub: true };
+      const m = hero.querySelector('[data-hero-media]');
+      const c = hero.querySelector('[data-hero-content]');
+      const f = hero.querySelector('[data-hero-fade]');
+      if (m) gsap.to(m, { scale: 1.12, yPercent: 8, ease: 'none', scrollTrigger: st });
+      if (c) gsap.to(c, { yPercent: -18, opacity: 0, ease: 'none', scrollTrigger: { ...st, end: '60% top' } });
+      if (f) gsap.to(f, { opacity: 0.9, ease: 'none', scrollTrigger: st });
+    });
+
+    // Manifeste : les mots s'allument un à un
+    scope.querySelectorAll<HTMLElement>('[data-words]').forEach((el) => {
+      gsap.to(el.querySelectorAll('.word'), {
+        color: '#FAF8F7',
+        stagger: 0.1,
+        ease: 'none',
+        scrollTrigger: { trigger: el, start: 'top 80%', end: 'bottom 45%', scrub: true },
+      });
+    });
+
+    // Chiffres clés qui défilent (« 612 ch », « 3,4 s », « 2 800 km »)
+    scope.querySelectorAll<HTMLElement>('[data-count]').forEach((el) => {
+      const raw = el.textContent ?? '';
+      const m = raw.match(/\d[\d\s\u202f\u00a0]*(?:,\d+)?/);
+      if (!m) return;
+      const num = parseFloat(m[0].replace(/[\s\u202f\u00a0]/g, '').replace(',', '.'));
+      const dec = (m[0].split(',')[1] ?? '').length;
+      const [pre, post] = [raw.slice(0, m.index), raw.slice((m.index ?? 0) + m[0].length)];
+      const o = { v: 0 };
+      gsap.to(o, {
+        v: num,
+        duration: 1.8,
+        ease: 'power3.out',
+        scrollTrigger: { trigger: el, start: 'top 92%', once: true },
+        onUpdate: () => { el.textContent = pre + o.v.toLocaleString('fr-FR', { minimumFractionDigits: dec, maximumFractionDigits: dec }) + post; },
+      });
+    });
+
+    // Grand logo du pied de page : les lettres montent une à une
+    scope.querySelectorAll<HTMLElement>('[data-letters]').forEach((el) => {
+      gsap.from(el.querySelectorAll('path'), {
+        yPercent: 105,
+        duration: 1.4,
+        ease: 'expo.out',
+        stagger: 0.07,
+        scrollTrigger: { trigger: el, start: 'top 95%', once: true },
+      });
     });
 
     // Filets qui se tracent
@@ -121,6 +171,42 @@ export function MotionProvider({ children }: { children: React.ReactNode }) {
       cleanup = () => { document.removeEventListener('click', onClick); gsap.ticker.remove(raf); lenis?.destroy(); lenis = null; };
     });
     return () => { dead = true; cleanup(); };
+  }, []);
+
+  // Barre de progression (feu arrière) + boutons magnétiques
+  useEffect(() => {
+    if (!motionOn()) return;
+    let dead = false;
+    let off = () => {};
+    libs().then(({ gsap, ScrollTrigger }) => {
+      if (dead) return;
+      const bar = document.querySelector<HTMLElement>('.progress');
+      const st = bar
+        ? ScrollTrigger.create({ start: 0, end: 'max', onUpdate: (self) => gsap.set(bar, { scaleX: self.progress }) })
+        : null;
+      const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
+      const move = (e: PointerEvent) => {
+        const el = (e.target as HTMLElement).closest<HTMLElement>('[data-magnetic]');
+        document.querySelectorAll<HTMLElement>('[data-magnetic].is-mag').forEach((m) => {
+          if (m !== el) { m.classList.remove('is-mag'); gsap.to(m, { x: 0, y: 0, duration: 0.8, ease: 'elastic.out(1, 0.4)' }); }
+        });
+        if (!el) return;
+        const r = el.getBoundingClientRect();
+        el.classList.add('is-mag');
+        gsap.to(el, { x: (e.clientX - r.left - r.width / 2) * 0.25, y: (e.clientY - r.top - r.height / 2) * 0.35, duration: 0.5, ease: 'power3.out' });
+      };
+      if (fine) window.addEventListener('pointermove', move, { passive: true });
+      off = () => { st?.kill(); window.removeEventListener('pointermove', move); };
+    });
+    return () => { dead = true; off(); };
+  }, []);
+
+  // Rideau entre les pages : activé après le premier affichage
+  useEffect(() => {
+    if (!motionOn()) return;
+    document.querySelectorAll('.curtain').forEach((c) => c.classList.add('done'));
+    const id = requestAnimationFrame(() => document.documentElement.classList.add('navigated'));
+    return () => cancelAnimationFrame(id);
   }, []);
 
   // Animations au défilement, relancées à chaque changement de page

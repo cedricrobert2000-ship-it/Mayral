@@ -21,10 +21,10 @@ export function FormOnImage({ id, image = media.rearThreeQuarter, label, title, 
     <section id={id} className="relative isolate overflow-hidden">
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 xl:-inset-y-[5%]" data-parallax="4">
-          <Image src={image.src} alt="" fill sizes="100vw" quality={80} className="object-cover object-[20%_50%] opacity-70 xl:opacity-100" />
+          <Image src={image.src} alt="" fill sizes="100vw" quality={80} className="grade object-cover object-[20%_50%] opacity-70 xl:opacity-100" />
         </div>
         <div className="absolute inset-0 hidden xl:block" style={{ background: 'var(--overlay-side)' }} />
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(5,3,4,0.55),rgba(5,3,4,0.92)_55%)] xl:hidden" />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(2,2,2,0.55),rgba(2,2,2,0.92)_55%)] xl:hidden" />
         <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-canvas to-transparent" />
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-canvas to-transparent" />
       </div>
