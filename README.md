@@ -35,11 +35,14 @@ Déposer un fichier JSON dans `content/vehicles/` (modèle : `roadster-v12-demo.
 - Pages internes (noindex) : `/brand`, `/design-system`, `/design-system/hero-mobile`
 - `docs/captures/` : captures 1440 px et 390 px
 
-## Déploiement Vercel
+## Déploiement Netlify
 
-1. Importer le repo `Mayral` sur vercel.com (framework détecté automatiquement).
-2. Ajouter les variables de `.env.example` dans *Settings → Environment Variables*.
-3. Brancher le domaine, puis mettre à jour `NEXT_PUBLIC_SITE_URL`.
+1. Sur app.netlify.com : *Add new site → Import an existing project → GitHub*, choisir `Mayral`.
+2. Les réglages de build sont lus dans `netlify.toml` (rien à saisir).
+3. *Site configuration → Environment variables* : ajouter les variables de `.env.example`.
+4. *Domain management* : brancher le domaine, puis mettre à jour `NEXT_PUBLIC_SITE_URL`.
+
+Chaque push sur `main` redéploie le site automatiquement.
 
 ## Mesures (Lighthouse mobile, accueil, première visite avec loader)
 
