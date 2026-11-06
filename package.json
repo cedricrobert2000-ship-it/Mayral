@@ -1,0 +1,39 @@
+{
+  "name": "mayral",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "tokens": "node scripts/build-tokens.mjs",
+    "media": "node scripts/build-media.mjs",
+    "brand": "node scripts/build-brand.mjs",
+    "predev": "npm run tokens",
+    "dev": "next dev",
+    "prebuild": "npm run tokens",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gsap": "^3.15.1",
+    "lenis": "^1.3.27",
+    "next": "^16.4.5",
+    "nodemailer": "^7.0.13",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@fontsource/manrope": "^5.3.0",
+    "@fontsource/unbounded": "^5.3.0",
+    "@tailwindcss/postcss": "^4.3.4",
+    "@types/node": "^26.6.6",
+    "@types/nodemailer": "^8.0.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "opentype.js": "^2.0.0",
+    "postcss": "^8.5.32",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.4",
+    "typescript": "^5.9.3"
+  }
+}
