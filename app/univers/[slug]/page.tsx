@@ -5,7 +5,7 @@ import { Monogram } from '@/components/ui/Logo';
 import { t } from '@/lib/i18n';
 
 // Placeholders v1. Chaque univers aura sa propre page (contenu dans content/univers/ à venir).
-const slugs = ['maison', 'yacht', 'jet', 'conciergerie'] as const;
+const slugs = ['yacht', 'jet', 'conciergerie'] as const;
 type Slug = (typeof slugs)[number];
 
 export const dynamicParams = false;

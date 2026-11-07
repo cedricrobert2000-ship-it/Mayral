@@ -2,15 +2,14 @@ import type { Metadata } from 'next';
 import { PageIntro } from '@/components/sections/PageIntro';
 import { Label } from '@/components/ui/Label';
 import { Button, ButtonLink } from '@/components/ui/Button';
-import { VehicleCard } from '@/components/ui/VehicleCard';
-import { SpecTable } from '@/components/ui/SpecTable';
+import { CarCard } from '@/components/ui/CarCard';
 import { EditorialBlock } from '@/components/ui/EditorialBlock';
 import { Gallery } from '@/components/ui/Gallery';
 import { ContactForm } from '@/components/ui/ContactForm';
 import { Logo } from '@/components/ui/Logo';
 import { ReplayIntro } from '@/components/motion/ReplayIntro';
 import { media } from '@/lib/media';
-import { getVehicles } from '@/lib/vehicles';
+import { getFeaturedCars, getCar } from '@/lib/cars';
 
 export const metadata: Metadata = { title: 'Design system', robots: { index: false, follow: false } };
 
@@ -27,7 +26,8 @@ function Block({ id, index, title, note, children }: { id: string; index: string
 }
 
 export default function DesignSystemPage() {
-  const v = getVehicles()[0];
+  const v = getFeaturedCars()[0];
+  const om = getCar('ferrari-f40');
   return (
     <>
       <PageIntro label="Interne · noindex" title="Design system.">
@@ -63,12 +63,9 @@ export default function DesignSystemPage() {
         <div className="shell"><div className="flex h-20 items-center justify-between rounded-card border border-line bg-canvas/65 px-8 backdrop-blur-xl"><Logo withSignature={false} className="h-4 w-auto" /><span className="label text-ink-muted">État « défilé »</span></div></div>
       </Block>
 
-      {v && (
-        <Block id="carte" index="03" title="Carte véhicule" note="Visuel 16:10 ou 4:5, nom, année, 3 caractéristiques, prix ou « Sur demande ». Survol : zoom lent + flèche inversée.">
-          <div className="shell grid gap-[var(--gutter)] gap-y-16 xl:grid-cols-[2fr_1fr]">
-            <VehicleCard vehicle={v} />
-            <VehicleCard vehicle={{ ...v, status: 'reserved', cover: 'topLight' }} format="4/5" sizes="(min-width: 1280px) 33vw, 100vw" />
-          </div>
+      {v && om && (
+        <Block id="carte" index="03" title="Carte véhicule" note="Photo, marque, modèle, pastille de catégorie, puissance et 0–100. Survol : zoom lent, flèche inversée.">
+          <div className="shell grid gap-3 md:grid-cols-2 xl:grid-cols-3"><CarCard car={v} /><CarCard car={om} /></div>
         </Block>
       )}
 
@@ -76,12 +73,7 @@ export default function DesignSystemPage() {
         <Gallery images={[media.heroSilhouette, media.rearThreeQuarter, media.tailLight, media.topLight]} title="Démo" />
       </Block>
 
-      {v && (
-        <Block id="fiche" index="05" title="Fiche technique" note="type.spec, chiffres tabulaires.">
-          <div className="shell"><SpecTable specs={v.specs} /></div>
-        </Block>
-      )}
-
+      
       <Block id="editorial" index="06" title="Bloc éditorial" note="Image macro + texte, décalés sur la grille (12 / 8 / 4 colonnes).">
         <div className="shell">
           <EditorialBlock image={media.tailLight} label={<Label>Exemple</Label>} title="Une seule source de lumière.">

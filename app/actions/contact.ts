@@ -15,8 +15,9 @@ const Schema = z.object({
   preferred: z.enum(['whatsapp', 'phone', 'email']),
   message: z.string().trim().max(2000).optional(),
   consent: z.literal('on', { error: t.form.errors.consent }),
-  source: z.enum(['contact', 'off-market', 'vehicle', 'home']).default('contact'),
-  vehicle: z.string().max(120).optional(),
+  source: z.enum(['contact', 'home', 'car', 'estate', 'sell', 'find', 'service']).default('contact'),
+  interest: z.enum(['car', 'sell', 'estate', 'service', 'other']).optional(),
+  subject: z.string().max(160).optional(),
   website: z.string().max(0).optional(), // honeypot : doit rester vide
 });
 
@@ -58,12 +59,14 @@ export async function sendContact(_: ContactState, formData: FormData): Promise<
       auth: { user: SMTP_USER, pass: SMTP_PASS },
     });
     const pref = { whatsapp: 'WhatsApp', phone: 'Téléphone', email: 'E-mail' }[d.preferred];
-    const subject = `[MAYRAL] ${d.source === 'off-market' ? 'Demande d’accès off-market' : 'Nouvelle demande'}${d.vehicle ? ` — ${d.vehicle}` : ''}`;
+    const interests = { car: 'Achat automobile', sell: 'Vente automobile', estate: 'Immobilier', service: 'Service', other: 'Autre' } as const;
+    const subject = `[MAYRAL] ${d.interest ? interests[d.interest] : 'Nouvelle demande'}${d.subject ? ` — ${d.subject}` : ''}`;
     const text = [
       `Nom : ${d.name}`,
       `Contact : ${d.contact}`,
       `Moyen préféré : ${pref}`,
-      `Origine : ${d.source}${d.vehicle ? ` (${d.vehicle})` : ''}`,
+      `Projet : ${d.interest ? interests[d.interest] : '—'}`,
+      `Origine : ${d.source}${d.subject ? ` (${d.subject})` : ''}`,
       d.message ? `\nMessage :\n${d.message}` : '',
       `\nConsentement RGPD : oui (${new Date().toISOString()})`,
     ].join('\n');

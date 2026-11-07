@@ -29,7 +29,7 @@ export function Hero({ image = media.heroSilhouette, mobile = 'crop', mobilePosi
   const lines = Array.isArray(title) ? title : [title];
 
   return (
-    <section data-hero className="relative isolate flex h-svh min-h-[640px] items-end overflow-hidden bg-canvas">
+    <section data-hero className="panel flex h-[calc(100svh-16px)] min-h-[620px] items-end bg-canvas md:h-[calc(100svh-24px)]">
       <div className="absolute inset-0 -z-10" data-hero-media>
         <div className="hero-zoom absolute inset-0">
           <picture>
@@ -45,7 +45,7 @@ export function Hero({ image = media.heroSilhouette, mobile = 'crop', mobilePosi
         <div data-hero-fade className="absolute inset-0 bg-canvas opacity-0" />
       </div>
 
-      <div className="shell relative w-full pb-8 md:pb-10" data-hero-content>
+      <div className="relative w-full px-5 pb-6 md:px-10 md:pb-9 xl:px-14" data-hero-content>
         {eyebrow && (
           <div data-reveal="fade" data-trigger="load" style={{ ['--d' as string]: '0.05s' }} className="mb-6 md:mb-8">
             {eyebrow}

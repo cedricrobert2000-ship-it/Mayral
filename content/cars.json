@@ -1,0 +1,1190 @@
+[
+ {
+  "brand": "Alfa Romeo",
+  "model": "33 Stradale",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "630 ch",
+   "accel": "2,8 s",
+   "engine": "V6 3.0 L 90°",
+   "seats": "2",
+   "topSpeed": "333 km/h",
+   "gearbox": "Boîte double embrayage, 8 rapports"
+  },
+  "slug": "alfa-romeo-33-stradale"
+ },
+ {
+  "brand": "Apollo",
+  "model": "Apollo IE",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "780 ch",
+   "accel": "2,7 s",
+   "engine": "V12 6.3 L",
+   "seats": "2",
+   "topSpeed": "335 km/h",
+   "gearbox": "Boîte séquentielle, 6 rapports"
+  },
+  "slug": "apollo-apollo-ie"
+ },
+ {
+  "brand": "Aston Martin",
+  "model": "Valhalla",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "950 ch",
+   "engine": "V6 hybride biturbo",
+   "seats": "2",
+   "topSpeed": "> 354 km/h",
+   "gearbox": "Boîte double embrayage, 8 rapports"
+  },
+  "slug": "aston-martin-valhalla"
+ },
+ {
+  "brand": "Aston Martin",
+  "model": "Valiant",
+  "offMarket": true,
+  "buildSlot": true,
+  "image": "/media/cars/aston-martin-valiant.webp",
+  "specs": {
+   "power": "750 ch",
+   "engine": "V12 biturbo",
+   "seats": "2",
+   "gearbox": "Boîte automatique, 8 rapports"
+  },
+  "slug": "aston-martin-valiant",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Aston Martin",
+  "model": "Valkyrie",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1160 ch",
+   "accel": "2,5 s",
+   "engine": "V12 6.5 L hybride",
+   "seats": "2",
+   "topSpeed": "> 402 km/h",
+   "gearbox": "7-speed paddle-shift"
+  },
+  "slug": "aston-martin-valkyrie"
+ },
+ {
+  "brand": "Bugatti",
+  "model": "Centodieci",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1577 ch",
+   "accel": "2,4 s",
+   "engine": "W16 quadriturbo 8.0 L",
+   "seats": "2",
+   "topSpeed": "380 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "bugatti-centodieci"
+ },
+ {
+  "brand": "Bugatti",
+  "model": "Chiron",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1479 ch",
+   "accel": "2,5 s",
+   "engine": "W16 quadriturbo 8.0 L",
+   "seats": "2",
+   "topSpeed": "420 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "bugatti-chiron"
+ },
+ {
+  "brand": "Bugatti",
+  "model": "Chiron Pur Sport",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1479 ch",
+   "accel": "2,3 s",
+   "engine": "W16 quadriturbo 8.0 L",
+   "seats": "2",
+   "topSpeed": "351 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "bugatti-chiron-pur-sport"
+ },
+ {
+  "brand": "Bugatti",
+  "model": "Chiron Sport",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1479 ch",
+   "accel": "2,4 s",
+   "engine": "W16 quadriturbo 8.0 L",
+   "seats": "2",
+   "topSpeed": "420 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "bugatti-chiron-sport"
+ },
+ {
+  "brand": "Bugatti",
+  "model": "Chiron Super Sport",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1578 ch",
+   "accel": "2,4 s",
+   "engine": "W16 quadriturbo 8.0 L",
+   "seats": "2",
+   "topSpeed": "439 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "bugatti-chiron-super-sport"
+ },
+ {
+  "brand": "Bugatti",
+  "model": "Chiron Super Sport 300+",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1578 ch",
+   "accel": "2,4 s",
+   "engine": "W16 quadriturbo 8.0 L",
+   "seats": "2",
+   "topSpeed": "490 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "bugatti-chiron-super-sport-300"
+ },
+ {
+  "brand": "Bugatti",
+  "model": "Divo",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1479 ch",
+   "accel": "2,4 s",
+   "engine": "W16 quadriturbo 8.0 L",
+   "seats": "2",
+   "topSpeed": "380 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "bugatti-divo"
+ },
+ {
+  "brand": "Bugatti",
+  "model": "Tourbillon",
+  "offMarket": true,
+  "buildSlot": true,
+  "image": "/media/cars/bugatti-tourbillon.webp",
+  "specs": {
+   "seats": "2",
+   "topSpeed": "420 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "bugatti-tourbillon",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Bugatti",
+  "model": "Veyron",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1001 ch",
+   "accel": "2,5 s",
+   "engine": "W16 quadriturbo 8.0 L",
+   "seats": "2",
+   "topSpeed": "407 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "bugatti-veyron"
+ },
+ {
+  "brand": "Bugatti",
+  "model": "W16 Mistral",
+  "offMarket": false,
+  "buildSlot": true,
+  "image": "/media/cars/bugatti-w16-mistral.webp",
+  "specs": {
+   "power": "1600 ch"
+  },
+  "slug": "bugatti-w16-mistral",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Czinger",
+  "model": "21 C",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1250 ch",
+   "accel": "2,9 s",
+   "engine": "V8 biturbo 2.9 L hybride",
+   "seats": "2",
+   "topSpeed": "> 370 km/h",
+   "gearbox": "Boîte séquentielle, 7 rapports"
+  },
+  "slug": "czinger-21-c"
+ },
+ {
+  "brand": "Ferrari",
+  "model": "288 GTO",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "400 ch",
+   "accel": "4,9 s",
+   "engine": "V8 biturbo 2.9 L",
+   "seats": "2",
+   "topSpeed": "304 km/h",
+   "gearbox": "Boîte manuelle, 5 rapports"
+  },
+  "slug": "ferrari-288-gto"
+ },
+ {
+  "brand": "Ferrari",
+  "model": "812 Competizione",
+  "offMarket": true,
+  "buildSlot": true,
+  "image": "/media/cars/ferrari-812-competizione.webp",
+  "specs": {
+   "power": "830 ch",
+   "accel": "2,8 s",
+   "engine": "V12 6.5 L",
+   "seats": "2",
+   "topSpeed": "> 339 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "ferrari-812-competizione",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Ferrari",
+  "model": "812 Competizione Aperta",
+  "offMarket": true,
+  "buildSlot": true,
+  "image": "/media/cars/ferrari-812-competizione-aperta.webp",
+  "specs": {
+   "power": "819 ch",
+   "accel": "2,8 s",
+   "engine": "V12 6.5 L",
+   "seats": "2",
+   "topSpeed": "> 339 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "ferrari-812-competizione-aperta",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Ferrari",
+  "model": "Daytona SP3",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "830 ch",
+   "accel": "2,8 s",
+   "engine": "V12 6.5 L",
+   "seats": "2",
+   "topSpeed": "> 339 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "ferrari-daytona-sp3"
+ },
+ {
+  "brand": "Ferrari",
+  "model": "Enzo",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "651 ch",
+   "accel": "3,15 s",
+   "engine": "V12 6.0 L",
+   "seats": "2",
+   "topSpeed": "356 km/h",
+   "gearbox": "Boîte automatique, 6 rapports"
+  },
+  "slug": "ferrari-enzo"
+ },
+ {
+  "brand": "Ferrari",
+  "model": "F250",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "800 ch",
+   "engine": "V8 hybride",
+   "seats": "2",
+   "topSpeed": "325 km/h",
+   "gearbox": "Boîte double embrayage, 8 rapports"
+  },
+  "slug": "ferrari-f250"
+ },
+ {
+  "brand": "Ferrari",
+  "model": "F40",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "471 ch",
+   "accel": "4,1 s",
+   "engine": "V8 biturbo 2.9 L",
+   "seats": "2",
+   "topSpeed": "323 km/h",
+   "gearbox": "Boîte manuelle, 5 rapports"
+  },
+  "slug": "ferrari-f40"
+ },
+ {
+  "brand": "Ferrari",
+  "model": "LaFerrari",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "963 ch",
+   "accel": "2,9 s",
+   "engine": "V12 6.3 L + moteur électrique",
+   "seats": "2",
+   "topSpeed": "> 349 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "ferrari-laferrari"
+ },
+ {
+  "brand": "Ferrari",
+  "model": "LaFerrari Aperta",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "963 ch",
+   "accel": "2,9 s",
+   "engine": "V12 6.3 L + moteur électrique",
+   "seats": "2",
+   "topSpeed": "> 349 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "ferrari-laferrari-aperta"
+ },
+ {
+  "brand": "Ferrari",
+  "model": "Monza SP1",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "810 ch",
+   "accel": "2,9 s",
+   "engine": "V12 6.5 L",
+   "seats": "1",
+   "topSpeed": "> 299 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "ferrari-monza-sp1"
+ },
+ {
+  "brand": "Ferrari",
+  "model": "Monza SP2",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "810 ch",
+   "accel": "2,9 s",
+   "engine": "V12 6.5 L",
+   "seats": "2",
+   "topSpeed": "> 299 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "ferrari-monza-sp2"
+ },
+ {
+  "brand": "Ferrari",
+  "model": "Purosangue",
+  "offMarket": false,
+  "buildSlot": true,
+  "image": "/media/cars/ferrari-purosangue.webp",
+  "specs": {
+   "power": "735 ch"
+  },
+  "slug": "ferrari-purosangue",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Gordon Murray",
+  "model": "T33",
+  "offMarket": false,
+  "buildSlot": true,
+  "image": "/media/cars/gordon-murray-t33.webp",
+  "specs": {},
+  "slug": "gordon-murray-t33",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Gordon Murray",
+  "model": "T33 Spider",
+  "offMarket": false,
+  "buildSlot": true,
+  "image": "/media/cars/gordon-murray-t33-spider.webp",
+  "specs": {},
+  "slug": "gordon-murray-t33-spider",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Gordon Murray",
+  "model": "T50",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "650 ch",
+   "accel": "2,8 s",
+   "engine": "V12 3.9 L",
+   "seats": "3",
+   "topSpeed": "> 354 km/h",
+   "gearbox": "Boîte manuelle, 6 rapports"
+  },
+  "slug": "gordon-murray-t50"
+ },
+ {
+  "brand": "Koenigsegg",
+  "model": "Agera",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "947 ch",
+   "accel": "2,8 s",
+   "engine": "V8 biturbo 5.0 L",
+   "seats": "2",
+   "topSpeed": "> 418 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "koenigsegg-agera"
+ },
+ {
+  "brand": "Koenigsegg",
+  "model": "CC850",
+  "offMarket": true,
+  "buildSlot": true,
+  "image": "/media/cars/koenigsegg-cc850.webp",
+  "specs": {
+   "power": "850 ch",
+   "accel": "3,0 s",
+   "engine": "V8 à double compresseur 4.7 L",
+   "seats": "2",
+   "topSpeed": "> 386 km/h",
+   "gearbox": "Boîte manuelle, 6 rapports"
+  },
+  "slug": "koenigsegg-cc850",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Koenigsegg",
+  "model": "Gemera",
+  "offMarket": true,
+  "buildSlot": true,
+  "image": "/media/cars/koenigsegg-gemera.webp",
+  "specs": {
+   "power": "1700 ch",
+   "accel": "1,9 s",
+   "engine": "3 cylindres biturbo 2.0 L + moteurs électriques",
+   "seats": "4",
+   "topSpeed": "401 km/h"
+  },
+  "slug": "koenigsegg-gemera",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Koenigsegg",
+  "model": "Jesko",
+  "offMarket": true,
+  "buildSlot": true,
+  "image": "/media/cars/koenigsegg-jesko.webp",
+  "specs": {
+   "accel": "2,5 s",
+   "engine": "V8 biturbo 5.0 L",
+   "seats": "2",
+   "topSpeed": "> 483 km/h",
+   "gearbox": "Boîte multi-embrayage, 9 rapports"
+  },
+  "slug": "koenigsegg-jesko",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Koenigsegg",
+  "model": "Jesko Absolut",
+  "offMarket": true,
+  "buildSlot": true,
+  "image": "/media/cars/koenigsegg-jesko-absolut.webp",
+  "specs": {
+   "accel": "2,5 s",
+   "engine": "V8 biturbo 5.0 L",
+   "seats": "2",
+   "gearbox": "Boîte multi-embrayage, 9 rapports"
+  },
+  "slug": "koenigsegg-jesko-absolut",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Koenigsegg",
+  "model": "Regera",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1500 ch",
+   "accel": "2,8 s",
+   "engine": "V8 biturbo 5.0 L + moteurs électriques",
+   "seats": "2",
+   "topSpeed": "410 km/h"
+  },
+  "slug": "koenigsegg-regera"
+ },
+ {
+  "brand": "Lamborghini",
+  "model": "Aventador SV",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "740 ch",
+   "accel": "2,9 s",
+   "engine": "V12 6.5 L",
+   "seats": "2",
+   "topSpeed": "349 km/h",
+   "gearbox": "Boîte robotisée ISR, 7 rapports"
+  },
+  "slug": "lamborghini-aventador-sv"
+ },
+ {
+  "brand": "Lamborghini",
+  "model": "Aventador SVJ",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "759 ch",
+   "accel": "2,8 s",
+   "engine": "V12 6.5 L",
+   "seats": "2",
+   "topSpeed": "349 km/h",
+   "gearbox": "Boîte robotisée ISR, 7 rapports"
+  },
+  "slug": "lamborghini-aventador-svj"
+ },
+ {
+  "brand": "Lamborghini",
+  "model": "Aventador Ultimae",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "769 ch",
+   "accel": "2,8 s",
+   "engine": "V12 6.5 L",
+   "seats": "2",
+   "topSpeed": "349 km/h",
+   "gearbox": "Boîte robotisée ISR, 7 rapports"
+  },
+  "slug": "lamborghini-aventador-ultimae"
+ },
+ {
+  "brand": "Lamborghini",
+  "model": "Miura",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "accel": "6,7 s",
+   "engine": "V12 3.9 L",
+   "seats": "2",
+   "topSpeed": "275 km/h",
+   "gearbox": "Boîte manuelle, 5 rapports"
+  },
+  "slug": "lamborghini-miura"
+ },
+ {
+  "brand": "Lamborghini",
+  "model": "Revuelto",
+  "offMarket": false,
+  "buildSlot": true,
+  "image": "/media/cars/lamborghini-revuelto.webp",
+  "specs": {},
+  "slug": "lamborghini-revuelto",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Lamborghini",
+  "model": "Urus Performante",
+  "offMarket": false,
+  "buildSlot": true,
+  "image": "/media/cars/lamborghini-urus-performante.webp",
+  "specs": {},
+  "slug": "lamborghini-urus-performante",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Lotus",
+  "model": "Evija",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1973 ch",
+   "accel": "2,8 s",
+   "engine": "4 moteurs électriques",
+   "seats": "2",
+   "topSpeed": "> 322 km/h",
+   "gearbox": "Rapport unique"
+  },
+  "slug": "lotus-evija"
+ },
+ {
+  "brand": "Maserati",
+  "model": "MC12 Stradale",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "620 ch",
+   "accel": "3,2 s",
+   "engine": "V12 6.0 L",
+   "seats": "2",
+   "topSpeed": "330 km/h",
+   "gearbox": "Boîte automatique, 6 rapports"
+  },
+  "slug": "maserati-mc12-stradale"
+ },
+ {
+  "brand": "Maserati",
+  "model": "MC20",
+  "offMarket": true,
+  "buildSlot": true,
+  "image": "/media/cars/maserati-mc20.webp",
+  "specs": {
+   "power": "621 ch",
+   "accel": "2,9 s",
+   "engine": "V6 biturbo 3.0 L",
+   "seats": "2",
+   "topSpeed": "> 325 km/h",
+   "gearbox": "Boîte double embrayage, 8 rapports"
+  },
+  "slug": "maserati-mc20",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "McLaren",
+  "model": "F1",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "618 ch",
+   "accel": "2,9 s",
+   "engine": "BMW V12 6.1 L",
+   "seats": "3",
+   "topSpeed": "386 km/h",
+   "gearbox": "Boîte manuelle, 6 rapports"
+  },
+  "slug": "mclaren-f1"
+ },
+ {
+  "brand": "McLaren",
+  "model": "F1 GTR",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "600 ch",
+   "accel": "2,9 s",
+   "engine": "BMW V12 6.1 L",
+   "seats": "2",
+   "topSpeed": "> 322 km/h",
+   "gearbox": "Boîte manuelle, 6 rapports"
+  },
+  "slug": "mclaren-f1-gtr"
+ },
+ {
+  "brand": "McLaren",
+  "model": "P1",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "903 ch",
+   "accel": "2,8 s",
+   "engine": "V8 biturbo 3.8 L + moteur électrique",
+   "seats": "2",
+   "topSpeed": "349 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "mclaren-p1"
+ },
+ {
+  "brand": "McLaren",
+  "model": "P1 Spider by Lanzante",
+  "offMarket": false,
+  "buildSlot": true,
+  "image": "/media/cars/mclaren-p1-spider-by-lanzante.webp",
+  "specs": {},
+  "slug": "mclaren-p1-spider-by-lanzante",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "McLaren",
+  "model": "Sabre",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "824 ch",
+   "accel": "2,8 s",
+   "engine": "V8 biturbo 4.0 L",
+   "seats": "2",
+   "topSpeed": "351 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "mclaren-sabre"
+ },
+ {
+  "brand": "McLaren",
+  "model": "Senna",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "800 ch",
+   "accel": "2,8 s",
+   "engine": "V8 biturbo 4.0 L",
+   "seats": "2",
+   "topSpeed": "335 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "mclaren-senna"
+ },
+ {
+  "brand": "McLaren",
+  "model": "Solus",
+  "offMarket": false,
+  "buildSlot": true,
+  "image": "/media/cars/mclaren-solus.webp",
+  "specs": {},
+  "slug": "mclaren-solus",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Mercedes-AMG",
+  "model": "Project One",
+  "offMarket": true,
+  "buildSlot": true,
+  "image": "/media/cars/mercedes-amg-project-one.webp",
+  "specs": {
+   "power": "1000 ch",
+   "accel": "2,8 s",
+   "engine": "V6 turbo 1.6 L + moteurs électriques",
+   "seats": "2",
+   "topSpeed": "> 349 km/h",
+   "gearbox": "Boîte automatique, 8 rapports"
+  },
+  "slug": "mercedes-amg-project-one",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Mercedes-AMG",
+  "model": "PureSpeed",
+  "offMarket": true,
+  "buildSlot": true,
+  "image": "/media/cars/mercedes-amg-purespeed.webp",
+  "specs": {
+   "power": "720 ch",
+   "engine": "V8 biturbo",
+   "seats": "2",
+   "topSpeed": "> 349 km/h",
+   "gearbox": "Boîte automatique, 9 rapports"
+  },
+  "slug": "mercedes-amg-purespeed",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Pagani",
+  "model": "Huayra Coupé",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "720 ch",
+   "accel": "3,3 s",
+   "engine": "V12 biturbo 6.0 L",
+   "seats": "2",
+   "topSpeed": "> 383 km/h",
+   "gearbox": "Boîte séquentielle, 7 rapports"
+  },
+  "slug": "pagani-huayra-coupe"
+ },
+ {
+  "brand": "Pagani",
+  "model": "Huayra R",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "850 ch",
+   "accel": "2,8 s",
+   "engine": "V12 atmosphérique 6.0 L",
+   "seats": "2",
+   "topSpeed": "> 383 km/h",
+   "gearbox": "Boîte séquentielle, 6 rapports"
+  },
+  "slug": "pagani-huayra-r"
+ },
+ {
+  "brand": "Pagani",
+  "model": "Huayra Roadster",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "754 ch",
+   "accel": "3,3 s",
+   "engine": "V12 biturbo 6.0 L",
+   "seats": "2",
+   "topSpeed": "> 383 km/h",
+   "gearbox": "Boîte séquentielle, 7 rapports"
+  },
+  "slug": "pagani-huayra-roadster"
+ },
+ {
+  "brand": "Pagani",
+  "model": "Utopia Coupé",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "864 ch",
+   "accel": "2,6 s",
+   "engine": "V12 6.0 L biturbo",
+   "seats": "2",
+   "topSpeed": "370 km/h",
+   "gearbox": "Boîte manuelle, 7 rapports"
+  },
+  "slug": "pagani-utopia-coupe"
+ },
+ {
+  "brand": "Pagani",
+  "model": "Zonda F",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "602 ch",
+   "accel": "3,2 s",
+   "engine": "V12 7.3 L",
+   "seats": "2",
+   "topSpeed": "344 km/h",
+   "gearbox": "Boîte manuelle, 6 rapports"
+  },
+  "slug": "pagani-zonda-f"
+ },
+ {
+  "brand": "Pagani",
+  "model": "Zonda R",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "800 ch",
+   "accel": "3,0 s",
+   "engine": "V12 6.0 L",
+   "seats": "2",
+   "topSpeed": "351 km/h",
+   "gearbox": "Boîte séquentielle, 6 rapports"
+  },
+  "slug": "pagani-zonda-r"
+ },
+ {
+  "brand": "Pagani",
+  "model": "Zonda S",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "550 ch",
+   "accel": "3,4 s",
+   "engine": "V12 7.0 L",
+   "seats": "2",
+   "topSpeed": "335 km/h",
+   "gearbox": "Boîte manuelle, 6 rapports"
+  },
+  "slug": "pagani-zonda-s"
+ },
+ {
+  "brand": "Pininfarina",
+  "model": "B95",
+  "offMarket": false,
+  "buildSlot": true,
+  "image": "/media/cars/pininfarina-b95.webp",
+  "specs": {},
+  "slug": "pininfarina-b95",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Pininfarina",
+  "model": "Battista",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1900 ch",
+   "accel": "1,86 s",
+   "engine": "4 moteurs électriques",
+   "seats": "2",
+   "topSpeed": "> 349 km/h",
+   "gearbox": "Rapport unique"
+  },
+  "slug": "pininfarina-battista"
+ },
+ {
+  "brand": "Porsche",
+  "model": "718 GT4 RS",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "414 ch",
+   "accel": "3,4 s",
+   "engine": "6 cyl. à plat 4.0 L",
+   "seats": "2",
+   "topSpeed": "302 km/h",
+   "gearbox": "Boîte double embrayage, 6 rapports"
+  },
+  "slug": "porsche-718-gt4-rs"
+ },
+ {
+  "brand": "Porsche",
+  "model": "911 (992) GT3 RS",
+  "offMarket": true,
+  "buildSlot": true,
+  "image": "/media/cars/porsche-911-992-gt3-rs.webp",
+  "specs": {
+   "accel": "3,2 s",
+   "engine": "6 cyl. à plat 4.0 L",
+   "seats": "2",
+   "topSpeed": "> 311 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "porsche-911-992-gt3-rs",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Porsche",
+  "model": "911 (992) S/T",
+  "offMarket": true,
+  "buildSlot": true,
+  "image": "/media/cars/porsche-911-992-s-t.webp",
+  "specs": {
+   "power": "450 ch",
+   "accel": "2,5 s",
+   "engine": "6 cyl. à plat biturbo 3.0 L",
+   "seats": "4",
+   "topSpeed": "307 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "porsche-911-992-s-t",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Porsche",
+  "model": "911 (992) Sport Classic",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "443 ch",
+   "accel": "3,5 s",
+   "engine": "6 cyl. à plat biturbo 3.0 L",
+   "seats": "4",
+   "topSpeed": "309 km/h",
+   "gearbox": "Boîte double embrayage, 8 rapports"
+  },
+  "slug": "porsche-911-992-sport-classic"
+ },
+ {
+  "brand": "Porsche",
+  "model": "911 GT1 Strassenversion",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "536 ch",
+   "accel": "3,9 s",
+   "engine": "6 cyl. à plat biturbo 3.2 L",
+   "seats": "2",
+   "topSpeed": "307 km/h",
+   "gearbox": "Boîte manuelle, 6 rapports"
+  },
+  "slug": "porsche-911-gt1-strassenversion"
+ },
+ {
+  "brand": "Porsche",
+  "model": "918 Spyder",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "887 ch",
+   "accel": "2,6 s",
+   "engine": "V8 4.6 L + moteurs électriques",
+   "seats": "2",
+   "topSpeed": "339 km/h",
+   "gearbox": "Boîte double embrayage, 7 rapports"
+  },
+  "slug": "porsche-918-spyder"
+ },
+ {
+  "brand": "Porsche",
+  "model": "Mission X",
+  "offMarket": false,
+  "buildSlot": true,
+  "image": "/media/cars/porsche-mission-x.webp",
+  "specs": {},
+  "slug": "porsche-mission-x",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Rimac",
+  "model": "Nevera",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1914 ch",
+   "accel": "1,97 s",
+   "engine": "4 moteurs électriques",
+   "seats": "2",
+   "topSpeed": "> 402 km/h",
+   "gearbox": "Rapport unique"
+  },
+  "slug": "rimac-nevera"
+ },
+ {
+  "brand": "Rolls-Royce",
+  "model": "Spectre",
+  "offMarket": true,
+  "buildSlot": true,
+  "image": "/media/cars/rolls-royce-spectre.webp",
+  "specs": {
+   "power": "585 ch",
+   "engine": "Électrique",
+   "seats": "4",
+   "topSpeed": "250 km/h",
+   "gearbox": "Rapport unique"
+  },
+  "slug": "rolls-royce-spectre",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Ssc",
+  "model": "Tuatara",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1750 ch",
+   "accel": "2,3 s",
+   "engine": "V8 biturbo 5.9 L",
+   "seats": "2",
+   "topSpeed": "> 508 km/h",
+   "gearbox": "Boîte automatique, 7 rapports"
+  },
+  "slug": "ssc-tuatara"
+ },
+ {
+  "brand": "Zenvo",
+  "model": "Aurora",
+  "offMarket": false,
+  "buildSlot": true,
+  "image": "/media/cars/zenvo-aurora.webp",
+  "specs": {},
+  "slug": "zenvo-aurora",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Zenvo",
+  "model": "TSR-GT",
+  "offMarket": false,
+  "buildSlot": true,
+  "image": "/media/cars/zenvo-tsr-gt.webp",
+  "specs": {},
+  "slug": "zenvo-tsr-gt",
+  "imageW": 1800,
+  "imageH": 1125
+ },
+ {
+  "brand": "Zenvo",
+  "model": "TSR-S",
+  "offMarket": true,
+  "buildSlot": false,
+  "image": null,
+  "specs": {
+   "power": "1177 ch",
+   "accel": "2,8 s",
+   "engine": "V8 à double compresseur 5.8 L",
+   "seats": "2",
+   "topSpeed": "325 km/h",
+   "gearbox": "Boîte automatique, 7 rapports"
+  },
+  "slug": "zenvo-tsr-s"
+ }
+]

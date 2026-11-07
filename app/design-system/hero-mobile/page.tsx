@@ -13,7 +13,7 @@ export default function HeroMobileOption() {
     <Hero
       mobile="crop"
       eyebrow={<Label className="text-ink-2">{h.eyebrow}</Label>}
-      title={h.title}
+      title={[...h.titleLines]}
       sub={h.sub}
       scrollLabel={h.scroll}
       actions={<><ButtonLink href="/collection">{h.ctaPrimary}</ButtonLink><ButtonLink href="/#contact" variant="secondary">{h.ctaSecondary}</ButtonLink></>}
