@@ -1,6 +1,6 @@
 # MAYRAL — Private Office
 
-Site de MAYRAL, vente automobile off-market. Brief complet : [`BRIEF.md`](./BRIEF.md).
+Site de MAYRAL (anciennement AMcars France) : automobiles off-market, build slots, immobilier d’exception. Brief initial : [`BRIEF.md`](./BRIEF.md).
 
 Stack : Next.js 16 (App Router) · TypeScript · Tailwind CSS 4 · GSAP (ScrollTrigger, SplitText) · Lenis · zod · Nodemailer (SMTP Infomaniak).
 
@@ -21,9 +21,13 @@ npm run dev             # http://localhost:3000
 | `npm run media` | Convertit `public/media/src/*.png` en AVIF + WebP (640 / 1080 / 1600 / 2400 px, plafonnés à la taille source). |
 | `npm run build` | Build de production. |
 
-## Ajouter un véhicule
+## Catalogue automobile
 
-Déposer un fichier JSON dans `content/vehicles/` (modèle : `roadster-v12-demo.json`). Le schéma est validé par zod au build (`lib/vehicles.ts`). Les visuels sont référencés par leur clé dans `lib/media.ts`. Aucune autre modification de code.
+`content/cars.json` contient les 77 modèles repris d’amcarsfrance.com (traduits, dédoublonnés, caractéristiques nettoyées). Chaque entrée : `slug`, `brand`, `model`, `offMarket`, `buildSlot`, `image`, `specs`. Pour ajouter un modèle, ajoutez une entrée et une photo dans `public/media/cars/` ; la page `/automobiles/<slug>` est générée automatiquement.
+
+Photos : visuels constructeur repris de l’ancien site pour les build slots ; photos libres de droits Wikimedia Commons pour l’off-market, avec crédit auteur/licence dans `content/photo-credits.json` (affiché sur chaque fiche).
+
+Les anciennes URL (`/cars/…`, `/about`, `/sell`, `/find-car`…) sont redirigées en 301 (`next.config.ts`).
 
 ## Arborescence
 

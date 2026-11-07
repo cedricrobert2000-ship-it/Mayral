@@ -1,1 +1,257 @@
-{}
+{
+ "bugatti-chiron-pur-sport": {
+  "author": "MrWalkr",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3ABugatti_Chiron_Pur_Sport.jpg"
+ },
+ "bugatti-chiron-sport": {
+  "author": "Calreyn88",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3ABugatti_Chiron_Sport_gfos25_1.jpg"
+ },
+ "bugatti-chiron-super-sport-300": {
+  "author": "Dylan Johnson",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3A2020_Bugatti_Chiron_Super_Sport_300%2B_Prototype_Front.jpg"
+ },
+ "bugatti-chiron-super-sport": {
+  "author": "MrWalkr",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3ABugatti_Chiron_Super_Sport.jpg"
+ },
+ "bugatti-chiron": {
+  "author": "Matti Blume",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3ABugatti_Chiron%2C_GIMS_2018%2C_Le_Grand-Saconnex_%281X7A1765%29.jpg"
+ },
+ "bugatti-veyron": {
+  "author": "M 93",
+  "license": "CC BY-SA 3.0 de",
+  "page": "https://commons.wikimedia.org/wiki/File%3ABugatti_Veyron_16.4_%E2%80%93_Frontansicht_%283%29%2C_5._April_2012%2C_D%C3%BCsseldorf.jpg"
+ },
+ "ferrari-288-gto": {
+  "author": "TTTNIS",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File%3A1984_Ferrari_288_GTO_front.jpg"
+ },
+ "ferrari-daytona-sp3": {
+  "author": "Prova MO",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AFerrari_Daytona_SP3_front_side_at_CF_2022.jpg"
+ },
+ "ferrari-enzo": {
+  "author": "Axion23",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AOrange_Enzo_Ferrari_%287191948164%29.jpg"
+ },
+ "ferrari-f250": {
+  "author": "Asgaw",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AFerrari_F80.jpg"
+ },
+ "ferrari-f40": {
+  "author": "Will ainsworth",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AF40_Ferrari_20090509.jpg"
+ },
+ "ferrari-laferrari-aperta": {
+  "author": "Calreyn88",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AFerrari_Laferrari_Aperta_black.jpg"
+ },
+ "ferrari-laferrari": {
+  "author": "Alexander-93",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AFerrari_LaFerrari_GIMS_2024_1X7A2272.jpg"
+ },
+ "ferrari-monza-sp1": {
+  "author": "Rutger van der Maar",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AFerrari_Monza_SP1.jpg"
+ },
+ "ferrari-monza-sp2": {
+  "author": "TTTNIS",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File%3A2021_Ferrari_Monza_SP2.jpg"
+ },
+ "mclaren-f1-gtr": {
+  "author": "Sovxx",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File%3AMcLaren_F1_GTR_95_P440_CPJ_Ritz.jpg"
+ },
+ "mclaren-f1": {
+  "author": "MrWalkr",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AA_Silver_McLaren_F1.jpg"
+ },
+ "mclaren-p1": {
+  "author": "Chelsea Jay",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3A2014_McLaren_P1_3.8.jpg"
+ },
+ "mclaren-sabre": {
+  "author": "pelican-actor",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AMcLaren_Sabre_-_52216980594.jpg"
+ },
+ "mclaren-senna": {
+  "author": "Matti Blume",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AMcLaren_Senna%2C_GIMS_2018%2C_Le_Grand-Saconnex_%281X7A0404%29.jpg"
+ },
+ "pagani-huayra-coupe": {
+  "author": "Matti Blume",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3APagani_Huayra_BC_Roadster%2C_BAS_24%2C_Brussels_%28P1170493-RR%29.jpg"
+ },
+ "pagani-huayra-r": {
+  "author": "MrWalkr",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3A2022_Pagani_Huayra_R_SCD26.jpg"
+ },
+ "pagani-huayra-roadster": {
+  "author": "Matti Blume",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3APagani_Huayra_BC_Roadster%2C_BAS_24%2C_Brussels_%28P1170493-RR%29.jpg"
+ },
+ "pagani-utopia-coupe": {
+  "author": "Alexander-93",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3APagani_Utopia_Auto_Zuerich_2023_1X7A1185.jpg"
+ },
+ "pagani-zonda-f": {
+  "author": "LSDSL",
+  "license": "CC BY-SA 2.0 de",
+  "page": "https://commons.wikimedia.org/wiki/File%3APagani_Zonda_F_Carbon.jpg"
+ },
+ "pagani-zonda-r": {
+  "author": "LarryStevens",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3APagani_Zonda_1.jpg"
+ },
+ "pagani-zonda-s": {
+  "author": "Calreyn88",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3APagani_Zonda_S_Roadster.jpg"
+ },
+ "alfa-romeo-33-stradale": {
+  "author": "Y.Leclercq",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AAlfa_Romeo_33_Stradale_-_02.jpg"
+ },
+ "apollo-apollo-ie": {
+  "author": "Kevauto",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AApollo_Intensa_Emozione_%28IE%29_Golden_Dragon%2C_front_2.1.20.jpg"
+ },
+ "aston-martin-valhalla": {
+  "author": "Yu Chu Chin",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AAston_Martin_Valhalla_at_the_2026_Adelaide_Rally_Street_Party_on_King_William_Road_%28028A4063%29.jpg"
+ },
+ "aston-martin-valkyrie": {
+  "author": "Matti Blume",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AAston_Martin_Valkyrie%2C_BAS_24%2C_Brussels_%28P1170224-RR%29.jpg"
+ },
+ "bugatti-centodieci": {
+  "author": "MrWalkr",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3A2022_Bugatti_Centodieci_White_Low.jpg"
+ },
+ "bugatti-divo": {
+  "author": "Matti Blume",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3ABugatti_Divo%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0029%29.jpg"
+ },
+ "czinger-21-c": {
+  "author": "Calreyn88",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3A2024_Czinger_21C_4.jpg"
+ },
+ "gordon-murray-t50": {
+  "author": "Prova MO",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AGMA_T.50_at_PB_2022.jpg"
+ },
+ "koenigsegg-agera": {
+  "author": "Ank Kumar",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AKoenigsegg_Agera%2C_GIMS_2018_07.jpg"
+ },
+ "koenigsegg-regera": {
+  "author": "MrWalkr",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3A2019_Koenigsegg_Regera_HCC23.jpg"
+ },
+ "lamborghini-aventador-sv": {
+  "author": "Alexander-93",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3ALamborghini_Aventador_LP750-4_SV_IMG_9103.jpg"
+ },
+ "lamborghini-aventador-svj": {
+  "author": "Alexander-93",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3ALamborghini_Aventador_SVJ_Roadster_IMG_9580.jpg"
+ },
+ "lamborghini-aventador-ultimae": {
+  "author": "Calreyn88",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3ALamborghini_Aventador_Ultimae_Roadster.jpg"
+ },
+ "lamborghini-miura": {
+  "author": "Andrew Bossi",
+  "license": "CC BY-SA 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File%3A6274_-_Luzern_-_Verkehrshaus_-_Lamborghini_Miura.JPG"
+ },
+ "lotus-evija": {
+  "author": "Alexander Migl",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3ALotus_Evija_MYLE_Festival_2025_DSC_9429.jpg"
+ },
+ "maserati-mc12-stradale": {
+  "author": "Calreyn88",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AMaserati_MC12_2.jpg"
+ },
+ "pininfarina-battista": {
+  "author": "Matti Blume",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3APininfarina_Battista%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS9970%29.jpg"
+ },
+ "porsche-718-gt4-rs": {
+  "author": "Matti Blume",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AManthey_Porsche_GT4_RS%2C_EMS_23%2C_Essen_%28P1160647-RR%29.jpg"
+ },
+ "porsche-911-992-sport-classic": {
+  "author": "Alexander-93",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3APorsche_911_Sport_Classic_%282022%29_IAA_2025_DSC_1786.jpg"
+ },
+ "porsche-911-gt1-strassenversion": {
+  "author": "Alexander Migl",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3APorsche_911_GT1_%2798_IMG_0834.jpg"
+ },
+ "porsche-918-spyder": {
+  "author": "Thomas Wolf, www.foto-tw.de",
+  "license": "CC BY-SA 3.0 de",
+  "page": "https://commons.wikimedia.org/wiki/File%3APorsche_918_Spyder_IAA_2013.jpg"
+ },
+ "rimac-nevera": {
+  "author": "Alexander-93",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3ARimac_Nevera_R_Auto_Zuerich_2024_DSC_6340.jpg"
+ },
+ "ssc-tuatara": {
+  "author": "SSCNA",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3A2019_SSC_Tuatara_at_Pebble_Beach_Press_Conference.jpg"
+ },
+ "zenvo-tsr-s": {
+  "author": "Calreyn88",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File%3AZenvo_TSR-S_VP2.jpg"
+ }
+}

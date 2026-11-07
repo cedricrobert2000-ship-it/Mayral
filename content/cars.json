@@ -4,7 +4,7 @@
   "model": "33 Stradale",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/alfa-romeo-33-stradale.webp",
   "specs": {
    "power": "630 ch",
    "accel": "2,8 s",
@@ -20,7 +20,7 @@
   "model": "Apollo IE",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/apollo-apollo-ie.webp",
   "specs": {
    "power": "780 ch",
    "accel": "2,7 s",
@@ -36,7 +36,7 @@
   "model": "Valhalla",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/aston-martin-valhalla.webp",
   "specs": {
    "power": "950 ch",
    "engine": "V6 hybride biturbo",
@@ -67,7 +67,7 @@
   "model": "Valkyrie",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/aston-martin-valkyrie.webp",
   "specs": {
    "power": "1160 ch",
    "accel": "2,5 s",
@@ -83,7 +83,7 @@
   "model": "Centodieci",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/bugatti-centodieci.webp",
   "specs": {
    "power": "1577 ch",
    "accel": "2,4 s",
@@ -99,7 +99,7 @@
   "model": "Chiron",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/bugatti-chiron.webp",
   "specs": {
    "power": "1479 ch",
    "accel": "2,5 s",
@@ -115,7 +115,7 @@
   "model": "Chiron Pur Sport",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/bugatti-chiron-pur-sport.webp",
   "specs": {
    "power": "1479 ch",
    "accel": "2,3 s",
@@ -131,7 +131,7 @@
   "model": "Chiron Sport",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/bugatti-chiron-sport.webp",
   "specs": {
    "power": "1479 ch",
    "accel": "2,4 s",
@@ -147,7 +147,7 @@
   "model": "Chiron Super Sport",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/bugatti-chiron-super-sport.webp",
   "specs": {
    "power": "1578 ch",
    "accel": "2,4 s",
@@ -163,7 +163,7 @@
   "model": "Chiron Super Sport 300+",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/bugatti-chiron-super-sport-300.webp",
   "specs": {
    "power": "1578 ch",
    "accel": "2,4 s",
@@ -179,7 +179,7 @@
   "model": "Divo",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/bugatti-divo.webp",
   "specs": {
    "power": "1479 ch",
    "accel": "2,4 s",
@@ -210,7 +210,7 @@
   "model": "Veyron",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/bugatti-veyron.webp",
   "specs": {
    "power": "1001 ch",
    "accel": "2,5 s",
@@ -239,7 +239,7 @@
   "model": "21 C",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/czinger-21-c.webp",
   "specs": {
    "power": "1250 ch",
    "accel": "2,9 s",
@@ -255,7 +255,7 @@
   "model": "288 GTO",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/ferrari-288-gto.webp",
   "specs": {
    "power": "400 ch",
    "accel": "4,9 s",
@@ -307,7 +307,7 @@
   "model": "Daytona SP3",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/ferrari-daytona-sp3.webp",
   "specs": {
    "power": "830 ch",
    "accel": "2,8 s",
@@ -323,7 +323,7 @@
   "model": "Enzo",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/ferrari-enzo.webp",
   "specs": {
    "power": "651 ch",
    "accel": "3,15 s",
@@ -339,7 +339,7 @@
   "model": "F250",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/ferrari-f250.webp",
   "specs": {
    "power": "800 ch",
    "engine": "V8 hybride",
@@ -354,7 +354,7 @@
   "model": "F40",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/ferrari-f40.webp",
   "specs": {
    "power": "471 ch",
    "accel": "4,1 s",
@@ -370,7 +370,7 @@
   "model": "LaFerrari",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/ferrari-laferrari.webp",
   "specs": {
    "power": "963 ch",
    "accel": "2,9 s",
@@ -386,7 +386,7 @@
   "model": "LaFerrari Aperta",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/ferrari-laferrari-aperta.webp",
   "specs": {
    "power": "963 ch",
    "accel": "2,9 s",
@@ -402,7 +402,7 @@
   "model": "Monza SP1",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/ferrari-monza-sp1.webp",
   "specs": {
    "power": "810 ch",
    "accel": "2,9 s",
@@ -418,7 +418,7 @@
   "model": "Monza SP2",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/ferrari-monza-sp2.webp",
   "specs": {
    "power": "810 ch",
    "accel": "2,9 s",
@@ -469,7 +469,7 @@
   "model": "T50",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/gordon-murray-t50.webp",
   "specs": {
    "power": "650 ch",
    "accel": "2,8 s",
@@ -485,7 +485,7 @@
   "model": "Agera",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/koenigsegg-agera.webp",
   "specs": {
    "power": "947 ch",
    "accel": "2,8 s",
@@ -569,7 +569,7 @@
   "model": "Regera",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/koenigsegg-regera.webp",
   "specs": {
    "power": "1500 ch",
    "accel": "2,8 s",
@@ -584,7 +584,7 @@
   "model": "Aventador SV",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/lamborghini-aventador-sv.webp",
   "specs": {
    "power": "740 ch",
    "accel": "2,9 s",
@@ -600,7 +600,7 @@
   "model": "Aventador SVJ",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/lamborghini-aventador-svj.webp",
   "specs": {
    "power": "759 ch",
    "accel": "2,8 s",
@@ -616,7 +616,7 @@
   "model": "Aventador Ultimae",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/lamborghini-aventador-ultimae.webp",
   "specs": {
    "power": "769 ch",
    "accel": "2,8 s",
@@ -632,7 +632,7 @@
   "model": "Miura",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/lamborghini-miura.webp",
   "specs": {
    "accel": "6,7 s",
    "engine": "V12 3.9 L",
@@ -669,7 +669,7 @@
   "model": "Evija",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/lotus-evija.webp",
   "specs": {
    "power": "1973 ch",
    "accel": "2,8 s",
@@ -685,7 +685,7 @@
   "model": "MC12 Stradale",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/maserati-mc12-stradale.webp",
   "specs": {
    "power": "620 ch",
    "accel": "3,2 s",
@@ -719,7 +719,7 @@
   "model": "F1",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/mclaren-f1.webp",
   "specs": {
    "power": "618 ch",
    "accel": "2,9 s",
@@ -735,7 +735,7 @@
   "model": "F1 GTR",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/mclaren-f1-gtr.webp",
   "specs": {
    "power": "600 ch",
    "accel": "2,9 s",
@@ -751,7 +751,7 @@
   "model": "P1",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/mclaren-p1.webp",
   "specs": {
    "power": "903 ch",
    "accel": "2,8 s",
@@ -778,7 +778,7 @@
   "model": "Sabre",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/mclaren-sabre.webp",
   "specs": {
    "power": "824 ch",
    "accel": "2,8 s",
@@ -794,7 +794,7 @@
   "model": "Senna",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/mclaren-senna.webp",
   "specs": {
    "power": "800 ch",
    "accel": "2,8 s",
@@ -856,7 +856,7 @@
   "model": "Huayra Coupé",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/pagani-huayra-coupe.webp",
   "specs": {
    "power": "720 ch",
    "accel": "3,3 s",
@@ -872,7 +872,7 @@
   "model": "Huayra R",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/pagani-huayra-r.webp",
   "specs": {
    "power": "850 ch",
    "accel": "2,8 s",
@@ -888,7 +888,7 @@
   "model": "Huayra Roadster",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/pagani-huayra-roadster.webp",
   "specs": {
    "power": "754 ch",
    "accel": "3,3 s",
@@ -904,7 +904,7 @@
   "model": "Utopia Coupé",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/pagani-utopia-coupe.webp",
   "specs": {
    "power": "864 ch",
    "accel": "2,6 s",
@@ -920,7 +920,7 @@
   "model": "Zonda F",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/pagani-zonda-f.webp",
   "specs": {
    "power": "602 ch",
    "accel": "3,2 s",
@@ -936,7 +936,7 @@
   "model": "Zonda R",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/pagani-zonda-r.webp",
   "specs": {
    "power": "800 ch",
    "accel": "3,0 s",
@@ -952,7 +952,7 @@
   "model": "Zonda S",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/pagani-zonda-s.webp",
   "specs": {
    "power": "550 ch",
    "accel": "3,4 s",
@@ -979,7 +979,7 @@
   "model": "Battista",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/pininfarina-battista.webp",
   "specs": {
    "power": "1900 ch",
    "accel": "1,86 s",
@@ -995,7 +995,7 @@
   "model": "718 GT4 RS",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/porsche-718-gt4-rs.webp",
   "specs": {
    "power": "414 ch",
    "accel": "3,4 s",
@@ -1046,7 +1046,7 @@
   "model": "911 (992) Sport Classic",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/porsche-911-992-sport-classic.webp",
   "specs": {
    "power": "443 ch",
    "accel": "3,5 s",
@@ -1062,7 +1062,7 @@
   "model": "911 GT1 Strassenversion",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/porsche-911-gt1-strassenversion.webp",
   "specs": {
    "power": "536 ch",
    "accel": "3,9 s",
@@ -1078,7 +1078,7 @@
   "model": "918 Spyder",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/porsche-918-spyder.webp",
   "specs": {
    "power": "887 ch",
    "accel": "2,6 s",
@@ -1105,7 +1105,7 @@
   "model": "Nevera",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/rimac-nevera.webp",
   "specs": {
    "power": "1914 ch",
    "accel": "1,97 s",
@@ -1138,7 +1138,7 @@
   "model": "Tuatara",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/ssc-tuatara.webp",
   "specs": {
    "power": "1750 ch",
    "accel": "2,3 s",
@@ -1176,7 +1176,7 @@
   "model": "TSR-S",
   "offMarket": true,
   "buildSlot": false,
-  "image": null,
+  "image": "/media/cars/zenvo-tsr-s.webp",
   "specs": {
    "power": "1177 ch",
    "accel": "2,8 s",

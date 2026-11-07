@@ -34,7 +34,7 @@ export function CarCard({ car: c, sizes = '(min-width: 1280px) 33vw, (min-width:
           <dl className="mt-4 flex gap-5 border-t border-ink/15 pt-3 text-[13px]">
             {c.specs.power && <div><dt className="sr-only">Puissance</dt><dd className="tabular text-ink">{c.specs.power}</dd></div>}
             {c.specs.accel && <div><dt className="sr-only">0–100</dt><dd className="tabular text-ink">{c.specs.accel} <span className="text-ink-muted">0–100</span></dd></div>}
-            {!c.specs.power && !c.specs.accel && <dd className="text-ink-muted">{t.cars.onRequest}</dd>}
+            {!c.specs.power && !c.specs.accel && <div><dt className="sr-only">Prix</dt><dd className="text-ink-muted">{t.cars.onRequest}</dd></div>}
           </dl>
         </div>
       </div>
